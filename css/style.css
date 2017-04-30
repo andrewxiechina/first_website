@@ -1,15 +1,46 @@
-a {
-    text-decoration: none;
-}
-
 #wrapper {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
-    background-color: blue;
-}
+ }
 
+/**********************
+HEADER
+**********************/
 #title {
     text-align: center;
     margin: 0;
+}
+
+header {
+    background-color: hotpink; 
+    border-color: deeppink;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+/**********************
+NAVIGATION
+**********************/
+nav a, nav a:visited {
+    color: #fff;
+}
+
+nav {
+    background-color: deeppink;
+}
+
+nav a.selected, nav a:hover{
+    color: pink;
+}
+
+/* Global */
+body {
+    color: #999;    
+}
+
+a {
+    text-decoration: none;
 }
