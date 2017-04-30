@@ -20,7 +20,12 @@ header {
 h1, h2 {
     color: #fff;
 }
-
+header h1 {
+    font-family: "宋体";
+}
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /**********************
 NAVIGATION
 **********************/
